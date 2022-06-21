@@ -38,6 +38,7 @@ func init() {
 }
 
 func main() {
+//test 
 	fmt.Println("监听端口发来的消息")
 	listener, err := net.Listen("tcp", server)
 	if err != nil {
